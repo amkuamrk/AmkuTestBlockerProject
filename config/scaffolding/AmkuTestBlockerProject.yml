@@ -1,0 +1,12 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: AmkuTestBlockerProject
+  gitServerName: Amku_p_Git
+  gitUrl: https://github.com/amkuamrk
+  gitUsername: amkuamrk
+  gitBranch: main
+configurationVariables:
+  jdbcfunc.SAPTxStore.failFastMode: false
+  jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
