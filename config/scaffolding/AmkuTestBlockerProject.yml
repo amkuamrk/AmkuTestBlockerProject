@@ -7,6 +7,98 @@ packages:
   gitUrl: https://github.com/amkuamrk
   gitUsername: amkuamrk
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.amkutestblocker.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:amkuTest123
+  packages:
+  - name: AmkuTestBlockerProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.17
 configurationVariables:
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.httpContentCharSet
+  : ISO-8859-1
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cr.password
+  : "{AES}TOOG/w61QRkdEWuE7IAn21KWSmZPkg9qsoipxSGc7mu/v564GObXqgWjTl9dHlFO"
   jdbcfunc.SAPTxStore.failFastMode: false
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.maximumPoolSize
+  : "10"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.minimumPoolSize
+  : "1"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.followServerRedirects
+  : "true"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cr.preemptiveAuthEnabled
+  : "false"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.serverRedirectMax
+  : "5"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.blockTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.readTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.retryCount
+  : "3"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.connectTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.connectionEnabled
+  : "true"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.tcpNoDelay
+  : "false"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.rh.requestHeaderValues
+  : "text/xml,login"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.socketLinger
+  : "-1"
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.poolIncrementSize
+  : "1"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cr.authSchemeType
+  : none
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.useExpectCont
+  : "false"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.validateAfterInactivity
+  : "1000"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.sessionExpiry
+  : "14"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.providerUrl
+  : https://login.salesforce.com/services/Soap/u/53.0
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.rh.requestHeaderNames
+  : "Content-Type,SOAPAction"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.userAgent
+  : Cloudstreams
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.allowCircularRedirects
+  : "true"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.timeoutType
+  : fixed
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.protocolVersion
+  : HTTP/1.1
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cr.username
+  : amkuecom@gmail.com
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.keepAliveInterval
+  : "300000"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.pr.useChunking
+  : "false"
+  ? cloudstreamsconnection.project..amkutestblocker..WmSalesforceProvider..com_webmethods_cloudstreams_salesforce_v53..connections:amkuTest123.poolable
+  : "true"
