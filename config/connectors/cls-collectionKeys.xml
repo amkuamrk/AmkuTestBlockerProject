@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services>
-    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
         <servicesKeys>
-            <keyDetails collectionKey="project.amkutestblocker.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:createAcc" connectorServiceName="project.amkutestblocker.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:createAcc"/>
+            <keyDetails collectionKey="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getHISTORY" connectorServiceName="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getHISTORY"/>
+            <keyDetails collectionKey="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getME" connectorServiceName="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getME"/>
+            <keyDetails collectionKey="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getPRICE" connectorServiceName="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getPRICE"/>
+            <keyDetails collectionKey="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getTIME" connectorServiceName="project.amkutestblocker.AmkuTestBlockerProject.project_amkutestblocker_AmkuTestBlockerProject_tes.operations.actions:getTIME"/>
         </servicesKeys>
     </cloudstreamsCollectionKeys>
 </services>
